@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>QA Wolf Validation</title>
+
+  <!-- The design intentionally stays minimal to emphasize functionality over aesthetics. -->
+  <style>
+    body {
+      font-family: Arial, sans-serif; /* universal font */
+      margin: 40px;                  
+      background: #f4f4f4;          /* Neutral background */
+    }
+
+    /* Action button styling. */
+    button {
+      padding: 12px 20px;
+      font-size: 16px;    
+      cursor: pointer;
+      border: none; 
+      background: #007bff; /* Standard blue for action buttons */
+      color: white;
+      border-radius: 6px;
+    }
+
+    /* Included hover */
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>QA Wolf Sort Validation</h1>
+
+  <!-- Single button to initiate validation. -->
+  <button id="runBtn">Run Validation</button>
+
+  <!-- Script listens for the button click and redirects to /run-validation to start the test. -->
+  <script>
+    document.getElementById("runBtn").addEventListener("click", () => {
+      window.location.href = "/run-validation"; // Redirect triggers backend validation
+    });
+  </script>
+</body>
+</html>
