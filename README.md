@@ -12,6 +12,13 @@ The goal is to demonstrate **QA engineering thoughtfulness** — combini
 
 ---
 
+## 🎥 Demo Video
+[▶️ Watch the QA Wolf Validation Walkthrough](https://github.com/TaraStevens90/Quality-Assurance-Sort-Validation/blob/main/Quality%20Assurance%20Test%20Walkthrough.mp4)
+
+This video demonstrates the QA Wolf Take‑Home assignment, showing the Playwright validation script in action and the resulting report output.
+
+---
+
 ## 🧩 Project Structure
 | File | Purpose |
 |------|----------|
